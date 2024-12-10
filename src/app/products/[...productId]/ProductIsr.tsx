@@ -46,6 +46,7 @@ const ProductIsr = ({
           src={productData.image}
           width={200}
           height={250}
+          className="max-sm:w-[150px]"
           alt={productData.title}
         />
       </figure>
