@@ -7,7 +7,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <div className="h-[48px]">
+    <div className="h-[48px] hidden lg:block">
       <header className="w-full z-50 fixed h-fit bg-white shadow-md">
         <nav className="w-[90%] max-w-6xl mx-auto h-[50px] bg-gray-50 text-gray-700 flex justify-between items-center rounded-lg px-4">
           {Menu.map((elem) => {

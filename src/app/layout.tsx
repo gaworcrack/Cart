@@ -6,6 +6,7 @@ import Header from "@/Components/Header";
 import Footer from "@/Components/Footer";
 import ReduxProvider from "@/redux/ReduxProvider";
 import CartIcon from "@/Components/CartIcon";
+import MobileFooter from "@/Components/MobileFooter";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,6 +40,7 @@ export default function RootLayout({
             <CartIcon />
             {children}
             <Footer />
+            <MobileFooter />
           </ReduxProvider>
         </ReactQueryProvider>
       </body>
