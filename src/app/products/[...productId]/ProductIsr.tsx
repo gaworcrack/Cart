@@ -37,7 +37,7 @@ const ProductIsr = ({
     if (sameItem.length !== 0) {
       setCount(sameItem[0].count);
     }
-  }, [sameItem]);
+  }, []);
 
   return (
     <div className="mt-12 mx-auto card bg-base-100 w-96 shadow-xl mb-4">
@@ -60,7 +60,9 @@ const ProductIsr = ({
         <div className="flex gap-x-2 items-center">
           <button
             className="w-[15px] h-[15px] rounded-full bg-green-600 text-white leading-[15px]"
-            onClick={() => setCount(count + 1)}
+            onClick={() => {
+              setCount(count + 1);
+            }}
           >
             +
           </button>
