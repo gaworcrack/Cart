@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const MobileFooter = () => {
   const pathname = usePathname();
   return (
-    <div className="btm-nav lg:hidden">
+    <div className="btm-nav shadow-2xl drop-shadow-2xl lg:hidden">
       {Menu.map((elem) => {
         return (
           <Link
