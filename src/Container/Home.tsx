@@ -21,7 +21,7 @@ const Home = () => {
 
         <div className="flex justify-center mt-8">
           <button
-            onClick={() => router.push("/about-us")}
+            onClick={() => router.push("/")}
             className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition-all ease-in-out duration-200 active:scale-95 text-lg font-medium"
           >
             Baca Lebih Lanjut Tentang Kami
