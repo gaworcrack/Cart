@@ -6,19 +6,10 @@ const About = () => {
   return (
     <div className="w-full h-fit p-4">
       <h2 className="text-3xl text-center mt-3 mb-12 font-semibold">
-        About Us
+        Tentang Kami
       </h2>
       <p className="text-lg text-justify leading-relaxed mb-12 px-6">
-        Welcome to Mohammad Shop! We are a passionate team dedicated to making a
-        difference between other shopping pages. Since our founding, we've
-        focused on delivering quality, sustainable, customized solutions that
-        meet the unique needs of our customers. We believe in building
-        meaningful relationships and creating value through our commitment to
-        excellence and innovation. Our team is made up of experts in design,
-        technology, customer support, and sustainable development, all working
-        together to make a positive impact. We aim to go beyond expectations,
-        ensuring that every experience with us is trustworthy, transparent, and
-        fulfilling. Thank you for being part of our journey!
+        Welcome to Tofik Shop!
       </p>
       <Image
         alt="About shopping"
